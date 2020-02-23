@@ -21,8 +21,8 @@ import { getDriveName } from 'drive-name';
 
 // print all the drives and their names respectively
 drivelist.list().then(drives => {
-    drives.foreach(drive => {
-        drive.mountpoints.foreach(mountpoint => console.log(mountpoint.path, getDriveName(mountpoint.path)));
+    drives.forEach(drive => {
+        drive.mountpoints.forEach(mountpoint => console.log(mountpoint.path, getDriveName(mountpoint.path)));
     });
 });
 ```
