@@ -3,6 +3,10 @@
 Native implementation that retrieves drive volume name for a given drive mount point.
 Currently supports Windows only.
 
+[![licence](https://img.shields.io/github/license/bennymeg/drive-name.svg)](https://github.com/bennymeg/drive-name/blob/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/drive-name.svg)](https://www.npmjs.com/package/drive-name)
+[![Dependencies status](https://david-dm.org/bennymeg/drive-name/status.svg)](https://david-dm.org/bennymeg/drive-name)
+
 ## Usage
 ```js
 import { getDriveName } from 'drive-name';
