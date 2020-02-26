@@ -1,5 +1,5 @@
 #include <napi.h>
 
 namespace drivename {
-    std::string getDriveName(std::string driveMountPoint);
+    std::string getDriveName(const std::string& driveMountPoint);
 }

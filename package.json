@@ -1,7 +1,7 @@
 {
   "name": "drive-name",
   "author": "Benny Megidish",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Drive name with native support on Windows",
   "license": "Apache-2.0",
   "main": "drive_name.js",

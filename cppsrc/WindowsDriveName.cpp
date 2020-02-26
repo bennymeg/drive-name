@@ -1,3 +1,5 @@
+#pragma once
+
 #include "DriveName.h"
 #include <Windows.h>
 #include <iostream>
@@ -6,8 +8,6 @@
 
 using std::wcout;
 using std::endl;
-
-// #pragma comment(lib, "windows.lib")
 
 std::wstring s2ws(const std::string& str)
 {
@@ -25,7 +25,7 @@ std::string ws2s(const std::wstring& wstr)
     return converterX.to_bytes(wstr);
 }
 
-std::string drivename::getDriveName(std::string driveMountPoint) 
+std::string drivename::getDriveName(const std::string& driveMountPoint) 
 {
 	std::string result = "";
 	std::wstring wDriveMountPoint = s2ws(driveMountPoint);
