@@ -30,7 +30,7 @@
   "devDependencies": {
     "cash-rm": "^0.2.0",
     "drivelist": "^8.0.10",
-    "node-gyp": "^6.1.0",
+    "node-gyp": "^9.4.0",
     "typescript": "^3.8.2"
   }
 }
